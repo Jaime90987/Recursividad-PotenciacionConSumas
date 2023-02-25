@@ -10,9 +10,8 @@ public class Potenciacion {
 	}
 
 	private int multiplicar(int base, int exponente) {
-		if(exponente == 1) {
+		if(exponente == 1)
 			return base;
-		}
 			
 		return base + multiplicar(base, exponente - 1);
 	}
