@@ -18,14 +18,11 @@ public class Potenciacion {
 	}
 
 	private int calcular(int base, int exponente) {
-		
-		if(exponente == 0) {
+		if(exponente == 0)
 			return 1;
-		}
 
-		if(exponente == 1) {
+		if(exponente == 1)
 			return base;
-		}
 			
 		return  multiplicar(base,calcular(base,exponente - 1));
 	}
