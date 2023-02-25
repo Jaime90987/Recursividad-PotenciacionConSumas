@@ -50,7 +50,7 @@ public class Principal {
 		Potenciacion p17 = new Potenciacion(-5,-4);
 		System.out.println(p17.getPotenciacion());
 	}
-	/*
+	
 	/*
 		4^3 = 64
 		4^4 = 256
@@ -75,6 +75,5 @@ public class Principal {
 
 		-5^-3 = -0.008
 		-5^-4 = 0.0016
-	*/
 	*/
 }
